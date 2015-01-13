@@ -120,6 +120,9 @@
                 <artifactId>jetty-maven-plugin</artifactId>
                 <version>9.2.3.v20140905</version>
                 <configuration>
+                    <httpConnector>
+                        <port>8888</port>
+                    </httpConnector>
                     <systemProperties>
                         <property>
                             <name>java.awt.headless</name>
