@@ -93,8 +93,12 @@
             <type>jar</type>
         </dependency>
         
-        <dependency><groupId>org.vaadin.teemu</groupId><artifactId>webcam</artifactId><version>0.2.0</version></dependency>
-	</dependencies>
+        <dependency>
+            <groupId>org.vaadin.teemu</groupId>
+            <artifactId>webcam</artifactId>
+            <version>0.2.0</version>
+        </dependency>
+    </dependencies>
     
     <build>
         <plugins>
@@ -115,6 +119,14 @@
                 <groupId>org.eclipse.jetty</groupId>
                 <artifactId>jetty-maven-plugin</artifactId>
                 <version>9.2.3.v20140905</version>
+                <configuration>
+                    <systemProperties>
+                        <property>
+                            <name>java.awt.headless</name>
+                            <value>true</value>
+                        </property>
+                    </systemProperties>
+                </configuration>
             </plugin>
         </plugins>
     </build>

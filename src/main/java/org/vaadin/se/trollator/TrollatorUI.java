@@ -28,7 +28,7 @@ import org.vaadin.teemu.webcam.Webcam;
 
 @Theme("valo")
 @SuppressWarnings("serial")
-public class HelloWorldUI extends UI {
+public class TrollatorUI extends UI {
 
     private static final String TROLL_IMAGE = "/home/se/images/trollface.png";
     private static final String OPENCV_HAARCASCADES_HOME = "/usr/local/share/OpenCV/haarcascades/";
@@ -38,7 +38,7 @@ public class HelloWorldUI extends UI {
     }
 
     @WebServlet(value = {"/*"}, asyncSupported = true)
-    @VaadinServletConfiguration(productionMode = false, ui = HelloWorldUI.class)
+    @VaadinServletConfiguration(productionMode = false, ui = TrollatorUI.class)
     public static class Servlet extends VaadinServlet {
     }
 
