@@ -5,7 +5,11 @@ This application takes a picture using web browsers camera API (available  in mo
 and runs OpenCV face recognition algorithm (using [CascadeClassifier](http://docs.opencv.org/java/org/opencv/objdetect/CascadeClassifier.html) ) for it. If a face is detected a "troll face" is added 
 on top of it.
 
-This pplication was inspired by [Trollator Android application](https://play.google.com/store/apps/details?id=com.fredagapps.android.trollator).
+This application was inspired by ingenious [Trollator mobile Android application](https://play.google.com/store/apps/details?id=com.fredagapps.android.trollator).
+
+OpenCV Installation for local Maven repository
+---
+
 
 OpenCV Installation for local Maven repository
 ---
