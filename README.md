@@ -6,10 +6,7 @@ and runs OpenCV face recognition algorithm (using [CascadeClassifier](http://doc
 
 ![Screenshot](/screenshot.png?raw=true "Screenshot")
 
-This application was inspired by ingenious [Trollator mobile Android application](https://play.google.com/store/apps/details?id=com.fredagapps.android.trollator).
-
-OpenCV Installation for local Maven repository
----
+This application was inspired by the ingenious ["Trollator" mobile Android application](https://play.google.com/store/apps/details?id=com.fredagapps.android.trollator).
 
 
 OpenCV Installation for local Maven repository
@@ -27,7 +24,7 @@ Once you have built the Java library you can install the resulting jar file to y
 
 Building this application
 ----
-Once OpenCV is available as a local Maven dependency, you can clone and build this application simply using Git and Maven:
+Once OpenCV jar library is available as a local Maven dependency, you can clone and build this application simply using Git and Maven:
 
      git clone https://github.com/samie/trollator.git
      mvn install
